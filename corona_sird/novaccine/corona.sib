@@ -1,0 +1,10 @@
+module "population"
+load "../examples/corona_seir/novaccine/corona_seir.pm"
+init "corona"
+add all measures
+deadline 2190
+dt 1.0
+replica 500
+simulate
+save output "../examples/corona_seir/novaccine/results" prefix "corona_" postfix "__"
+quit
