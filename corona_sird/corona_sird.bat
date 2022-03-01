@@ -4,10 +4,10 @@ set modelarg=%1
 
 set cwd=%CD%
 set shellname=sshell
-set vaccinepath[0]=\..\examples\corona_seir\novaccine
-set vaccinepath[1]=\..\examples\corona_seir\olderfirstvaccine
-set vaccinepath[2]=\..\examples\corona_seir\randvaccine
-set vaccinepath[3]=\..\examples\corona_seir\youngerfirstvaccine
+set vaccinepath[0]=\..\examples\corona_sird\novaccine
+set vaccinepath[1]=\..\examples\corona_sird\olderfirstvaccine
+set vaccinepath[2]=\..\examples\corona_sird\randvaccine
+set vaccinepath[3]=\..\examples\corona_sird\youngerfirstvaccine
 set sibname=corona.sib
 
 CD %cwd%\..\..\bin

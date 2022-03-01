@@ -1,10 +1,10 @@
 module "population"
-load "../examples/corona_seir/randvaccine/corona_seir.pm"
+load "../examples/corona_sird/randvaccine/corona_sird.pm"
 init "corona"
 add all measures
 deadline 2190
 dt 1.0
 replica 500
 simulate
-save output "../examples/corona_seir/randvaccine/results" prefix "corona_" postfix "__"
+save output "../examples/corona_sird/randvaccine/results" prefix "corona_" postfix "__"
 quit
